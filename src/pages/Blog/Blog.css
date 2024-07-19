@@ -1,0 +1,9 @@
+.BlogSection{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+

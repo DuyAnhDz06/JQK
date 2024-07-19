@@ -1,0 +1,74 @@
+.featureContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.contentContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.aboutUsContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+
+.aboutUsContent h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.aboutUsContent p{
+  width: 700px;
+  line-height: 36px;
+  text-align: justify;
+}
+
+.aboutUsKey{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  margin-top: 30px;
+}
+
+.aboutUsKey div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.aboutUsKey div h1{
+  font-size: 48px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.aboutUsKey div p{
+  font-size: 18px;
+  width: max-content;
+}
+
+.aboutUsImage{
+  width: 700px;
+  height: 400px;
+  border: none;
+  background-color: red;
+}
+
+.aboutSection{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 40px;
+}

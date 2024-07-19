@@ -1,0 +1,33 @@
+.blogCardContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  gap: 20px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.navigation p, .navigation span{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  border: none;
+  font-weight: 600;
+}
+
+.navigation p{
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

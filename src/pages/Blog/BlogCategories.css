@@ -1,0 +1,28 @@
+.BlogCategoriesContainer{
+  width: 360px;
+  padding: 20px 15px;
+  background-color: white;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.BlogCategoriesContainer h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.BlogCategoriesContainer div{
+  width: 340px;
+  height: 1px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 4px;
+}
+
+.BlogCategoriesContainer p {
+  font-size: 20px;
+  cursor: pointer;
+}
